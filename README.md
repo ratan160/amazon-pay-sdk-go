@@ -1,4 +1,4 @@
-# Amazon Pay Go SDK
+# Amazon Pay-Go SDK
 
 Amazon Pay SDK for Golang
 
@@ -11,7 +11,7 @@ go get github.com/qor/amazon-pay-sdk-go
 ## Usage
 
 ```go
-import amazonpay "github.com/qor/amazon-pay-sdk-go"
+import amazon pay "github.com/qor/amazon-pay-sdk-go"
 
 func main() {
   var client = amazonpay.New(&amazonpay.Config{
@@ -62,7 +62,7 @@ func main() {
 
 ## Verify IPN Notification
 
-Verify ipn notification
+Verify-in notification
 
 ```go
 amazonpay.VerifyIPNRequest(req)
@@ -72,7 +72,7 @@ amazonpay.VerifyIPNRequest(req)
 
 We have deployed a demo that integrated Amazon Pay sandbox mode, visit it here: [https://demo.getqor.com](https://demo.getqor.com)
 
-You can place orders with our Amazon sandbox account: `demo@getqor.com` / `qordemo`
+You can place orders with our Amazon sandbox account: `demo@getqor.com` / `Cordero`
 
 After placed orders, you can manage them via [our admin interface]((https://demo.getqor.com/admin)), like `take auth`, `capture`, `refund` orders, the admin interface is generated with [QOR Admin](http://github.com/qor/admin)
 
